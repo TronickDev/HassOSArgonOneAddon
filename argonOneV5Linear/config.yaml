@@ -1,0 +1,29 @@
+name: ArgonOne V5 Active Linear Cooling
+version: 50a
+slug: argon_one_v5_temp_linear
+description: Actively keeping your ArgonOne V5 cool.
+arch:
+  - armhf
+  - armv7
+  - aarch64
+auth_api: true
+homeassistant_api: true
+hassio_role: homeassistant
+hassio_api: true
+
+url: https://community.home-assistant.io/t/argon-one-active-cooling-addon/262598/
+map:
+  - config
+  - ssl
+  - addons
+  - backup
+  - share
+  - media
+options:
+  Celsius or Fahrenheit: F
+  Create a Fan Speed entity in Home Assistant: false
+  Log current temperature every 30 seconds: true
+schema:
+  Celsius or Fahrenheit: list(C|F)
+  Create a Fan Speed entity in Home Assistant: bool
+  Log current temperature every 30 seconds: bool
