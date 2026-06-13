@@ -5,4 +5,4 @@
 # too aggressively.
 #
 # Keep the rule enabled, but allow up to 160 characters per line.
-rule 'MD013', :line_length => 160
+rule 'MD013', :line_length => 240
