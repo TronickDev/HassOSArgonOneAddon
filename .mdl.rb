@@ -4,5 +4,5 @@
 # installation/configuration text that would become less readable if wrapped
 # too aggressively.
 #
-# Keep the rule enabled, but allow up to 160 characters per line.
+# Keep the rule enabled, but allow up to 240 characters per line.
 rule 'MD013', :line_length => 240
